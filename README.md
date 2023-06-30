@@ -4,14 +4,14 @@ After a hurricane, damage assessment is vital to the relief helpers and first re
 
 This repository contains the code for a project that uses computer vision and machine learning to classify hurricane-damaged buildings from satellite images.
 
-##Overview
+## Overview
 The goal of this project was to create a model that could tell if a building was damaged or not. There are two classes "no damage" and "damage".This was a challenging task because the images had different qualities and water could make it harder to see the damage.
 
-##Dataset Collected 
+## Dataset Collected 
 The dataset is collected from "Geo-satellite sensor" and "Geo Bigdata".
 Code for downloading dataset is inside the notebook.
 
-##Approach
+## Approach
 Our approach included the following steps:
 
 Preprocessing the data to handle variations in image quality, resolution, and the presence of water in the images.
@@ -20,7 +20,7 @@ Applying innovative techniques to enhance the training process, such as data aug
 Results
 In the end, the Xception model outperformed the others, achieving an accuracy of 89%. This robust and accurate classification model can be valuable for efficient post-hurricane damage assessment and providing aid to relief efforts.
 
-##Usage
+## Usage
 The code in this repository can be used to train and deploy a hurricane-damaged building classification model. The following instructions will help you get started:
 
 Clone the repository.
@@ -31,7 +31,7 @@ Deploy the model.
 Documentation
 The documentation for this project can be found in the docs directory.
 
-##Contact
+## Contact
 If you have any questions or feedback, please contact me at [nazimsaifi9@gmail.com].
 
 I hope this is helpful!
